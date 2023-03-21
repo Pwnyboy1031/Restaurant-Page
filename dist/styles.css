@@ -1,0 +1,31 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 6px double black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 5px;
+    
+}
+
+body {
+    margin: 0px;
+}
+
+.mainSec {
+    display: flex;
+    flex-direction: row;
+    margin: 150px;
+    gap: 250px;
+}
+
+.imgcap {
+    display: flex;
+    align-items: center;
+}
+
+#testimonial {
+    margin: 150px;
+}
