@@ -1,3 +1,5 @@
 import loadPage from "../dist/pageload";
-
-loadPage();
+document.addEventListener("DOMContentLoaded", (e) => {
+    loadPage();
+}) 
+console.log("test");
