@@ -1,5 +1,5 @@
 function loadContact() {
-    //reset page
+    // reset page
     const mainContent = document.getElementById("mainContent");
     mainContent.innerHTML = ``;
 
@@ -13,7 +13,7 @@ function loadContact() {
     contactUs.innerText = "Order Now!"
     mainContent.append(contactSec);
     contactSec.append(contactUs);
-
+    //instagram link
     const instaLink = document.createElement("a");
     instaLink.setAttribute("href", "https://www.instagram.com/chefdomllc/?hl=en");
     const instaLogo = document.createElement("img");
@@ -22,10 +22,16 @@ function loadContact() {
     contactSec.append(instaLogo);
     instaLink.appendChild(instaLogo);
     contactSec.appendChild(instaLink);
-
+    // closed days
+    const openDays = document.createElement("h1");
+    openDays.innerText = "Closed Mon | Sat";
+    contactSec.append(openDays);
+    //business inquiries
     const emailHeader = document.createElement("h1");
     emailHeader.innerText = "Business Inquiries: ChefDomLLC21@gmail.com";
     contactSec.append(emailHeader);
+
+    
 
 
 

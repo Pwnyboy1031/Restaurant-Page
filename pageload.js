@@ -9,6 +9,7 @@ function loadPage() {
     testimonial.setAttribute("id","testimonial");
     const testText1 = document.createElement("h1");
     testText1.innerText = " “ Man it was amazing ! Everything was perfect , I truly appreciate it ! We didn't even have a chance to get a pic to post we dug in right away 🤣 but it was more than enough for all of us ! That dessert was delicious! ” "
+    testText1.setAttribute("id", "customerTest");
     testimonial.appendChild(testText1);
     mainContent.appendChild(testimonial);
 
@@ -16,8 +17,9 @@ function loadPage() {
     const mainSec = document.createElement("div")
     mainSec.setAttribute("class", "mainSec")
     const testPic = document.createElement("img");
-    testPic.src = "/pizzarolls.png";
+    testPic.src = "/catered.png";
     testPic.height = 500;
+    testPic.setAttribute("id", "personalChef");
     mainSec.appendChild(testPic);
     const imgCap1 = document.createElement("div");
     mainSec.appendChild(imgCap1);
