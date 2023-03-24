@@ -1,5 +1,6 @@
 import loadContact from "../dist/contact";
 import loadPage from "../dist/pageload";
+import loadMenu from "../dist/menu";
 
 document.addEventListener("DOMContentLoaded", (e) => {
     // initialize
@@ -18,6 +19,8 @@ document.addEventListener("DOMContentLoaded", (e) => {
             loadPage();
         } else if (e.target == contactBtn) {
             loadContact();
+        } else if (e.target == menuBtn) {
+            loadMenu();
         }
     });
 });
