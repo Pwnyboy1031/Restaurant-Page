@@ -17,7 +17,7 @@ function loadPage() {
     const mainSec = document.createElement("div")
     mainSec.setAttribute("class", "mainSec")
     const testPic = document.createElement("img");
-    testPic.src = "/catered.png";
+    testPic.src = "/assets/catered.png";
     testPic.height = 500;
     testPic.setAttribute("id", "personalChef");
     mainSec.appendChild(testPic);
@@ -34,7 +34,7 @@ function loadPage() {
     mainSec2.innerHTML = `<div class="imgcap">
                             <h2>Catering, Parties, Weddings & More!</h2>
                           </div>
-                                <img src="/catering.png" alt="catering trays" height="500px">
+                                <img src="/assets/catering.png" alt="catering trays" height="500px">
                             </div>`
     mainContent.appendChild(mainSec2);
 
