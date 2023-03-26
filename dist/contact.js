@@ -17,7 +17,7 @@ function loadContact() {
     const instaLink = document.createElement("a");
     instaLink.setAttribute("href", "https://www.instagram.com/chefdomllc/?hl=en");
     const instaLogo = document.createElement("img");
-    instaLogo.setAttribute("src", "/assets/instagram.svg");
+    instaLogo.setAttribute("src", "assets/instagram.svg");
     instaLogo.setAttribute("height", "200px");
     contactSec.append(instaLogo);
     instaLink.appendChild(instaLogo);
